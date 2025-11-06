@@ -64,7 +64,7 @@ history = model.fit(
     epochs=5
 )
 
-# Accuracy and Loss graphs =====
+# Accuracy and Loss graphs 
 plt.figure(figsize=(10, 4))
 plt.subplot(1, 2, 1)
 plt.plot(history.history['accuracy'], label='Training Accuracy')
@@ -97,7 +97,7 @@ for i, ax in enumerate(axes.flat):
     ax.axis('off')
 plt.show()
 
-# Test the images in 
+# Test the images 
 samples_folder = "dataset/samples"
 for img_name in os.listdir(samples_folder):
     img_path = os.path.join(samples_folder, img_name)
