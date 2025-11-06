@@ -2,8 +2,8 @@
 A project that uses Convolution Neural Networks(CNNs) to classify astronomical images as blackholes or galaxies built with Tensorflow/Keras.This project combines computer science with astrophysics and is inspired by the wonders of space.
 
 ## Dataset
-The model has been trained from the Kaggle datset mentioned below:
-https://www.kaggle.com/datasets/nikitavet/images-of-galaxies-and-black-holes
+The model has been trained from the Kaggle datset mentioned below:  
+https://www.kaggle.com/datasets/nikitavet/images-of-galaxies-and-black-holes  
 They are organised into train and test folders under the Dataset folder
 
 ## Output
